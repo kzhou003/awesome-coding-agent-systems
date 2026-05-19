@@ -717,6 +717,20 @@ Enhanced evaluation with more tests.
         parallel=4
     )
 
+agenttrace
+~~~~~~~~~~
+
+Local-first TUI and CLI for evaluating AI coding agent sessions.
+
+.. code-block:: bash
+
+    brew install luoyuctl/tap/agenttrace
+    agenttrace doctor
+    agenttrace report
+
+Use agenttrace to turn local trace logs into cost, token, latency, and
+health regression gates for CI workflows.
+
 Custom Evaluation Scripts
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -892,6 +906,7 @@ Tools
 
 * BigCode Evaluation Harness
 * EvalPlus
+* agenttrace
 * Docker (sandboxing)
 * pytest, unittest (testing)
 
